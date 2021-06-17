@@ -37,12 +37,15 @@ body {
 
 /* class container-header */
 
+.header {
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
 .container-header {
     display: flex;
     align-items: center;
     margin-top: 0;
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
 /* list style*/
@@ -258,6 +261,11 @@ h2 {
     background-color: var(--primery-background-color);
 }  
 
+.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .team-title {
     color: var(--title-text-color);
     font-weight: 500;
@@ -265,7 +273,6 @@ h2 {
     line-height: 1.19;
     letter-spacing: 0.03em;
 
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -275,7 +282,6 @@ h2 {
     letter-spacing: 0.03em;
 
     margin-top: 0;
-    margin-bottom: 30px;
 }
 
 /* section-portfolio */
@@ -375,15 +381,12 @@ h2 {
 
 /* footer contacts */
 
-.footer-section {
+footer {
     background-color: var(--secondary-background-color);
-}
-
-
-.footer {  
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 
 address {
     font-style: normal;
@@ -405,3 +408,4 @@ address {
 .address-list  {
     margin-top: 9px;
 }
+    
